@@ -14,3 +14,5 @@
     * git checkout - Þessi skipun bæði býr til nýtt branch og færir þig yfir á það
     * git branch - Býr til branch
 4. Version Control er kerfi sem tekur upp breytingu á skjali og sem þú getur kallað til baka
+
+5. 
