@@ -13,12 +13,14 @@
     * git log - Sýnir sögu 
     * git checkout - Þessi skipun bæði býr til nýtt branch og færir þig yfir á það
     * git branch - Býr til branch
-4. Version Control er kerfi sem tekur upp breytingu á skjali og sem þú getur kallað til baka
+4. Hvað er útgáfustýring (Version Control)?
+    * Version Control er kerfi sem tekur upp breytingu á skjali og sem þú getur kallað til baka
 
 5. 
 
-6. 8-10 sinnum
+6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni? 
+    * 8-10 sinnum
 
-7. 
+7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT?
     * Working Directory er stigveldi skránna í tölvu
     * Staging Area er skráinn sem geymir allar upplýsingar sem fer í næstu commit skipun
