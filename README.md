@@ -9,3 +9,7 @@
     * git clone - Afritar geymslu.
     * git status - sýnir stöðu Git.
     * git diff - Sýnir mismun á skjali sem er ekki eins á server og local.
+3. Hvað gera eftirfarandi Git skipunir?
+    * git log - Sýnir sögu 
+    * git checkout - Þessi skipun bæði býr til nýtt branch og færir þig yfir á það
+    * git branch - Býr til branch
