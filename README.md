@@ -16,3 +16,5 @@
 4. Version Control er kerfi sem tekur upp breytingu á skjali og sem þú getur kallað til baka
 
 5. 
+
+6. 8-10 sinnum
