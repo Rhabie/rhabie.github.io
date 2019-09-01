@@ -18,3 +18,7 @@
 5. 
 
 6. 8-10 sinnum
+
+7. 
+    * Working Directory er stigveldi skránna í tölvu
+    * Staging Area er skráinn sem geymir allar upplýsingar sem fer í næstu commit skipun
