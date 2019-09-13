@@ -1,0 +1,44 @@
+I"{<h1 id="verkefni-11">Verkefni 1.1</h1>
+
+<ol>
+  <li>Hvað gera eftirfarandi Linux skipanir?
+    <ul>
+      <li>cd - Change Directory.</li>
+      <li>ls - List Docs.</li>
+      <li>pwd - Point Window Directory.</li>
+      <li>mkdir - make  folder direoctory.</li>
+    </ul>
+  </li>
+  <li>Hvað gera eftirfarandi Git skipunir?
+    <ul>
+      <li>git clone - Afritar geymslu.</li>
+      <li>git status - sýnir stöðu Git.</li>
+      <li>git diff - Sýnir mismun á skjali sem er ekki eins á server og local.</li>
+    </ul>
+  </li>
+  <li>Hvað gera eftirfarandi Git skipunir?
+    <ul>
+      <li>git log - Sýnir sögu</li>
+      <li>git checkout - Þessi skipun bæði býr til nýtt branch og færir þig yfir á það</li>
+      <li>git branch - Býr til branch</li>
+    </ul>
+  </li>
+  <li>Hvað er útgáfustýring (Version Control)?
+    <ul>
+      <li>Version Control er kerfi sem tekur upp breytingu á skjali og sem þú getur kallað til baka</li>
+    </ul>
+  </li>
+  <li></li>
+  <li>Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
+    <ul>
+      <li>8-10 sinnum</li>
+    </ul>
+  </li>
+  <li>Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT?
+    <ul>
+      <li>Working Directory er stigveldi skránna í tölvu</li>
+      <li>Staging Area er skráinn sem geymir allar upplýsingar sem fer í næstu commit skipun</li>
+    </ul>
+  </li>
+</ol>
+:ET
