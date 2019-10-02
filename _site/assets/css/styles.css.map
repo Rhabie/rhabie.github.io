@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		".current {\r\n    color:red;\r\n}"
+		".current {\r\n    color:red;\r\n}\r\nh1{\r\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n    text-align: center;\r\n    text-decoration: underline;\r\n}\r\n\r\nbody{\r\n    background-color: lightgreen;\r\n}\r\nnav{\r\n    border: 2px solid black;\r\n    outline: 10px solid green;\r\n    font-size: 200%;\r\n\r\n}\r\n.haegri{\r\n    border: 3px solid black;\r\n    outline: green solid 10px;\r\n    font-size: 20px;\r\n    padding-bottom: 200%;\r\n    padding-left: 20px;     \r\n    \r\n}\r\n.vinstri{\r\n    font-size: 25px;\r\n}\r\na:hover{\r\n    color: darkblue;\r\n}\r\n*{\r\n    box-sizing: border-box;\r\n}\r\n.box {\r\n    float: left;\r\n    width: 50%;\r\n    padding-left: 50px;\r\n}\r\n  \r\n.clearfix::after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: table;\r\n}\r\nimg{\r\n    width: 50%\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAC,GAAG,GACZ"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAC,GAAG,GACZ;;AACD,AAAA,EAAE,CAAA,EACE,WAAW,EAAE,mCAAmC,EAChD,UAAU,EAAE,MAAM,EAClB,eAAe,EAAE,SAAS,GAC7B;;AAED,AAAA,IAAI,CAAA,EACA,gBAAgB,EAAE,UAAU,GAC/B;;AACD,AAAA,GAAG,CAAA,EACC,MAAM,EAAE,eAAe,EACvB,OAAO,EAAE,gBAAgB,EACzB,SAAS,EAAE,IAAI,GAElB;;AACD,AAAA,OAAO,CAAA,EACH,MAAM,EAAE,eAAe,EACvB,OAAO,EAAE,gBAAgB,EACzB,SAAS,EAAE,IAAI,EACf,cAAc,EAAE,IAAI,EACpB,YAAY,EAAE,IAAI,GAErB;;AACD,AAAA,QAAQ,CAAA,EACJ,SAAS,EAAE,IAAI,GAClB;;AACD,AAAA,CAAC,AAAA,MAAM,CAAA,EACH,KAAK,EAAE,QAAQ,GAClB;;AACD,AAAA,CAAC,CAAA,EACG,UAAU,EAAE,UAAU,GACzB;;AACD,AAAA,IAAI,CAAC,EACD,KAAK,EAAE,IAAI,EACX,KAAK,EAAE,GAAG,EACV,YAAY,EAAE,IAAI,GACrB;;AAED,AAAA,SAAS,AAAA,OAAO,CAAC,EACb,OAAO,EAAE,EAAE,EACX,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,KAAK,GACjB;;AACD,AAAA,GAAG,CAAA,EACC,KAAK,EAAE,GACX,GAAC"
 }
