@@ -6,11 +6,16 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
-
+.green{
+    background-color: #2cb04f
+}
 body{
     background-color: lightgreen;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 nav{
+    text-align: center;
     border: 2px solid black;
     outline: 10px solid green;
     font-size: 200%;
@@ -20,12 +25,15 @@ nav{
     border: 3px solid black;
     outline: green solid 10px;
     font-size: 20px;
-    padding-bottom: 200%;
-    padding-left: 20px;     
+    padding-bottom: 100%;
+    padding-left: 20px;    
+    margin: 0px; 
     
 }
 .vinstri{
-    font-size: 25px;
+    font-size: 25px;    
+    border: 3px solid black;
+    outline: green solid 10px;
 }
 a:hover{
     color: darkblue;
