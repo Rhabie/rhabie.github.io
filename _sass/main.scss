@@ -1,14 +1,12 @@
 .current {
-    color:red;
+    color: green;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     text-decoration: underline;
 }
-.green{
-    background-color: #2cb04f
-}
+
 body{
     background-color: lightgreen;
     margin-left: 100px;
@@ -38,20 +36,35 @@ nav{
 a:hover{
     color: darkblue;
 }
-*{
-    box-sizing: border-box;
-}
+
 .box {
     float: left;
     width: 50%;
     padding-left: 50px;
 }
-  
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
 img{
-    width: 50%
+    width: 50%;
 }
+.header { 
+    grid-area: header; 
+}
+.menu { 
+    grid-area: menu; 
+}
+.item4 { 
+    grid-area: right; 
+}
+.item5 { 
+    grid-area: footer; 
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header'
+      'menu right right'
+      'menu right right'
+      'footer footer footer';
+    grid-gap: 10px;;
+    padding: 10px;
+  

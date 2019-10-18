@@ -1,4 +1,4 @@
-.current { color: red; }
+.current { color: green; }
 
 h1 { font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; text-decoration: underline; }
 
@@ -14,12 +14,18 @@ nav { text-align: center; border: 2px solid black; outline: 10px solid green; fo
 
 a:hover { color: darkblue; }
 
-* { box-sizing: border-box; }
-
 .box { float: left; width: 50%; padding-left: 50px; }
 
-.clearfix::after { content: ""; clear: both; display: table; }
-
 img { width: 50%; }
+
+.item1 { grid-area: header; }
+
+.item2 { grid-area: menu; }
+
+.item3 { grid-area: main; }
+
+.item4 { grid-area: right; }
+
+.item5 { grid-area: footer; }
 
 /*# sourceMappingURL=styles.css.map */
