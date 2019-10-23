@@ -1,42 +1,38 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+  }
 .current {
-    color: green;
+    color: lightblue;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    margin: 0px;
+    margin-top: 10px;
     text-decoration: underline;
 }
 
 body{
-    background-color: lightgreen;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: #4ff75a;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 nav{
     text-align: center;
-    border: 2px solid black;
-    outline: 10px solid green;
-    font-size: 200%;
-
+    background: green;
+    padding: 10px;
+    font-size: 1.7em;
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 0 1em;
+    }
+    &:hover{
+        color: darkblue;
+    }
 }
-.haegri{
-    border: 3px solid black;
-    outline: green solid 10px;
-    font-size: 20px;
-    padding-bottom: 100%;
-    padding-left: 20px;    
-    margin: 0px; 
-    
-}
-.vinstri{
-    font-size: 25px;    
-    border: 3px solid black;
-    outline: green solid 10px;
-}
-a:hover{
-    color: darkblue;
-}
-
 .box {
     float: left;
     width: 50%;
@@ -49,16 +45,30 @@ img{
 .header { 
     grid-area: header; 
 }
-.menu { 
-    grid-area: menu; 
+.menu {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border: 3px solid black; 
+    grid-area: menu;
+    font-size: 20px; 
 }
-.item4 { 
+.right {
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid black; 
     grid-area: right; 
 }
-.item5 { 
+.footer { 
     grid-area: footer; 
+    background: darkgreen;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
 }
 .grid-container {
+    background-color: lightgreen;
     display: grid;
     grid-template-areas:
       'header header header'
@@ -67,4 +77,4 @@ img{
       'footer footer footer';
     grid-gap: 10px;;
     padding: 10px;
-  
+}
