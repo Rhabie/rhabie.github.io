@@ -1,8 +1,4 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: black;
-    }
-  }
+
 .current {
     color: lightblue;
 }
@@ -51,13 +47,13 @@ img{
     padding-right: 10px;
     border: 3px solid black; 
     grid-area: menu;
-    font-size: 20px; 
+    font-size: 20px;
 }
 .right {
     padding: 10px;
-    font-size: 20px;
     border: 3px solid black; 
     grid-area: right; 
+    font-size: 20px;
 }
 .footer { 
     grid-area: footer; 
@@ -72,8 +68,8 @@ img{
     display: grid;
     grid-template-areas:
       'header header header'
-      'menu right right'
-      'menu right right'
+      'menu menu right'
+      'menu menu right'
       'footer footer footer';
     grid-gap: 10px;;
     padding: 10px;
