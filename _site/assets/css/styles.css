@@ -1,10 +1,8 @@
 .current { color: lightblue; }
 
-h1 { font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; margin: 0px; margin-top: 10px; text-decoration: underline; }
+body { background-color: white; margin-left: 50px; margin-right: 50px; }
 
-body { background-color: #4ff75a; margin-left: 50px; margin-right: 50px; }
-
-nav { text-align: center; background: green; padding: 10px; font-size: 1.7em; }
+nav { text-align: center; background: linear-gradient(gray, #73917b); padding: 10px; font-size: 1.7em; }
 
 nav a { color: white; text-decoration: none; padding: 0 1em; }
 
@@ -20,7 +18,7 @@ img { width: 50%; }
 
 .right { padding: 10px; border: 3px solid black; grid-area: right; font-size: 20px; }
 
-.footer { grid-area: footer; background: darkgreen; text-align: center; color: white; font-size: 30px; padding: 20px; }
+.footer { grid-area: footer; background: linear-gradient(#73917b, gray); text-align: center; color: white; font-size: 30px; padding: 20px; }
 
 .grid-container { background-color: lightgreen; display: grid; grid-template-areas: 'header header header' 'menu menu right' 'menu menu right' 'footer footer footer'; grid-gap: 10px; padding: 10px; }
 

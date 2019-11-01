@@ -2,22 +2,15 @@
 .current {
     color: lightblue;
 }
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin: 0px;
-    margin-top: 10px;
-    text-decoration: underline;
-}
 
 body{
-    background-color: #4ff75a;
+    background-color: white;
     margin-left: 50px;
     margin-right: 50px;
 }
 nav{
     text-align: center;
-    background: green;
+    background: linear-gradient(gray, #73917b);
     padding: 10px;
     font-size: 1.7em;
     a {
@@ -57,7 +50,7 @@ img{
 }
 .footer { 
     grid-area: footer; 
-    background: darkgreen;
+    background: linear-gradient(#73917b, gray);
     text-align: center;
     color: white;
     font-size: 30px;
