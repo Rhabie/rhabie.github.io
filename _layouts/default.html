@@ -5,8 +5,15 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
+  <header>
+    <img src="{{'/assets/images/mountain.jpg' |prepend: site.baseurl}}">
+  </header>
   <body>
     {% include navigation.html %}
-    {{ content }}
+    <main class="grid-container ">
+      <article>{{ content }}</article>
+      <aside>{% include augl-test.html %}</aside>
+    </main>
+    <footer class="footer"> Lorem Ipsum</footer>
   </body>
 </html>

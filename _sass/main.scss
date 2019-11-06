@@ -2,9 +2,10 @@
 .current {
     color: lightblue;
 }
-
 body{
     background-color: white;
+}
+.indent{
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -22,14 +23,12 @@ nav{
         color: darkblue;
     }
 }
-.box {
-    float: left;
-    width: 50%;
-    padding-left: 50px;
-}
-
 img{
-    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
 }
 .header { 
     grid-area: header; 
@@ -37,33 +36,42 @@ img{
 .menu {
     padding-left: 25px;
     padding-top: 10px;
-    padding-right: 10px;
-    border: 3px solid black; 
+    padding-right: 10px; 
     grid-area: menu;
     font-size: 20px;
 }
 .right {
-    padding: 10px;
-    border: 3px solid black; 
-    grid-area: right; 
+    grid-area: right;
+    padding-right: 25px;
+    background: gray;
     font-size: 20px;
+    margin: 0px
+
 }
 .footer { 
     grid-area: footer; 
     background: linear-gradient(#73917b, gray);
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     padding: 20px;
 }
 .grid-container {
-    background-color: lightgreen;
+    background-color: rgb(214, 214, 214);
     display: grid;
     grid-template-areas:
       'header header header'
       'menu menu right'
       'menu menu right'
       'footer footer footer';
-    grid-gap: 10px;;
+    grid-gap: 10px;
     padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+p{
+    font-size: 1.5em;
+}
+li{
+    font-size: 1.5em;
 }
