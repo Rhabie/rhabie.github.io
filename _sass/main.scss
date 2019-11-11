@@ -42,7 +42,7 @@ h1{
 }
 .right {
     grid-area: right;
-    padding-right: 25px;
+    padding: 0px 25px 10px 10px;
     background: gray;
     font-size: 20px;
     margin: 0px
@@ -60,10 +60,10 @@ h1{
     background-color: rgb(214, 214, 214);
     display: grid;
     grid-template-areas:
-      'header header header'
-      'menu menu right'
-      'menu menu right'
-      'footer footer footer';
+      'header header header header'
+      'menu menu menu right'
+      'menu menu menu right'
+      'footer footer footer footer';
     grid-gap: 10px;
     padding: 10px;
     padding-top: 0px;

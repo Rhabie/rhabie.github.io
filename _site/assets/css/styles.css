@@ -18,11 +18,11 @@ h1 { text-align: center; }
 
 .menu { padding-left: 25px; padding-top: 10px; padding-right: 10px; grid-area: menu; font-size: 20px; }
 
-.right { grid-area: right; padding-right: 25px; background: gray; font-size: 20px; margin: 0px; }
+.right { grid-area: right; padding: 0px 25px 10px 10px; background: gray; font-size: 20px; margin: 0px; }
 
 .footer { grid-area: footer; background: linear-gradient(#73917b, gray); text-align: center; color: white; font-size: 25px; padding: 20px; }
 
-.grid-container { background-color: #d6d6d6; display: grid; grid-template-areas: 'header header header' 'menu menu right' 'menu menu right' 'footer footer footer'; grid-gap: 10px; padding: 10px; padding-top: 0px; padding-bottom: 0px; }
+.grid-container { background-color: #d6d6d6; display: grid; grid-template-areas: 'header header header header' 'menu menu menu right' 'menu menu menu right' 'footer footer footer footer'; grid-gap: 10px; padding: 10px; padding-top: 0px; padding-bottom: 0px; }
 
 p { font-size: 1.5em; }
 
