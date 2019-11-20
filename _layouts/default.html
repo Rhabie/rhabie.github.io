@@ -10,9 +10,15 @@
   </header>
   <body>
     {% include navigation.html %}
-    <main class="grid-container indent">
-      <article>{{ content }}</article>
-      <aside>{% include augl-test.html %}</aside>
+    <main class="indent">
+      <div class="grid-container">
+        <article>
+          <div class="main">
+            {{ content }}
+          </div>
+        </article>
+        <aside>{% include augl-test.html %}</aside>
+      </div>
     </main>
     <footer class="footer"> Lorem Ipsum</footer>
   </body>
