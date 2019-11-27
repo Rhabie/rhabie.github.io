@@ -1,0 +1,31 @@
+---
+layout: default
+---  
+<fieldset> 
+<p>Name:</p>
+    <input type="text" name="customer_name" required style="margin-left: 10px;">
+<p>Phone: </p>
+    <input type="tel" name="phone_number" style="margin-left: 10px;">
+<p>@Email Address</p> 
+    <input type="email" name="email_address" style="margin-left: 10px;">
+<fieldset>
+    <legend>Do you want to also sign up for our magazine?</legend>
+    <p><label> <input type="radio" name="taxi" required value="car"> Yes </label></p>
+    <p><label> <input type="radio" name="taxi" required value="van"> No </label></p>
+</fieldset>
+        
+<fieldset>
+    <legend>Extras</legend>
+    <p><label> <input type="checkbox" name="extras" value="baby"> Book </label></p>
+    <p><label> <input type="checkbox" name="extras" value="wheelchair"> BUTTON !!</label></p>
+    <p><label> <input type="checkbox" name="extras" value="tip"> Button !! </label></p>
+</fieldset>        
+        <p>
+        <label>Special Instructions on you want to recive stuff:<br>
+        <textarea name="comments" maxlength="500"></textarea>
+        </label>
+        </p>
+        
+        <p><button>Submit</button></p>
+    </fieldset>
+</form>

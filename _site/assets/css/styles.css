@@ -1,6 +1,6 @@
 .current { color: lightblue; }
 
-body { background-color: white; }
+body { background: linear-gradient(#8a7978, #e6e1e1); margin: 0px; }
 
 .indent { margin-left: 50px; margin-right: 50px; }
 
@@ -12,27 +12,25 @@ nav:hover { color: darkblue; }
 
 img { max-width: 100%; height: auto; }
 
-h1 { text-align: center; }
-
-.main { font-size: 20px; max-width: 100%; }
+.main { font-size: 20px; max-width: 100%; margin-right: 10px; }
 
 .right { padding: 0px 10px 10px 10px; background: gray; margin: 0px; }
 
 .footer { background: linear-gradient(#73917b, gray); text-align: center; color: white; font-size: 25px; padding: 20px; }
 
-.grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px; padding-top: 0px; padding-bottom: 0px; }
+.grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
 
 p { font-size: 20px; margin: 4px; }
 
-li { font-size: 1.5em; }
+.ad { background: lightgray; text-align: center; overflow: hidden; }
 
-.ad { background: lightgray; text-align: center; }
+.button { background-color: red; border: none; color: white; padding: 15px 120px; text-align: center; text-decoration: none; display: inline-block; margin: 2px 2px; font-size: 30px; cursor: pointer; font-weight: bold; }
 
-.button { background-color: red; border: none; color: white; padding: 30px 120px; text-align: center; text-decoration: none; display: inline-block; margin: 2px 2px; font-size: 30px; cursor: pointer; font-weight: bold; }
+.kynning { margin: 20px 200px 0px 0px; }
 
 .mynd_ad { margin: 8px 2px 6px 2px; position: relative; animation: mymove 5s; }
 
-@keyframes mymove { from { left: 200px; }
+@keyframes mymove { from { left: 100px; }
   to { left: 0px; }
   0% { opacity: 0; }
   25% { opacity: 0.3; }
@@ -40,7 +38,9 @@ li { font-size: 1.5em; }
   75% { opacity: 0.9; }
   100% { opacity: 1; } }
 
-#div4 { animation-timing-function: ease-out; }
+#auglysing { animation-timing-function: ease; }
+
+.signup { display: grid; grid-template: auto auto; grid-gap: 20px; padding: 10px 0px 0px 0px; }
 
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?f3sfoj"); src: url("../fonts/icomoon.eot?f3sfoj#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?f3sfoj") format("truetype"), url("../fonts/icomoon.woff?f3sfoj") format("woff"), url("../fonts/icomoon.svg?f3sfoj#icomoon") format("svg"); font-weight: normal; font-style: normal; font-display: block; }
 
