@@ -5,8 +5,9 @@
     <title></title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
-  <nav>
-  <img src="/assets/images/Everestlogo.png">
+  <header class="navigation">
+    <div>
+      <nav>
     
       <a href="/" ><span class="icon-home"></span> Home</a>
     
@@ -17,90 +18,37 @@
       <a href="/staff.html" ><span class="icon-users"></span> Staff</a>
     
 </nav>
-  <body>
+    </div>
+  </header>
+    <body>
     <main class="indent">
-      <div class="grid-container">
         <article>
           <div class="main">
-            <fieldset> 
-<p>Name:</p>
-    <input type="text" name="customer_name" required style="margin-left: 10px;">
-<p>Phone: </p>
-    <input type="tel" name="phone_number" style="margin-left: 10px;">
-<p>@Email Address</p> 
-    <input type="email" name="email_address" style="margin-left: 10px;">
-<fieldset>
-    <legend>Do you want to also sign up for our magazine?</legend>
-    <p><label> <input type="radio" name="taxi" required value="car"> Yes </label></p>
-    <p><label> <input type="radio" name="taxi" required value="van"> No </label></p>
-</fieldset>
-        
-<fieldset>
-    <legend>Extras</legend>
-    <p><label> <input type="checkbox" name="extras" value="baby"> Book </label></p>
-    <p><label> <input type="checkbox" name="extras" value="wheelchair"> BUTTON !!</label></p>
-    <p><label> <input type="checkbox" name="extras" value="tip"> Button !! </label></p>
-</fieldset>        
+            <style>
+    .mynd{
+    }
+</style>
+<div class="grid-container"> 
+    <form class="signup">
+        <fieldset> 
+        <p>Name:</p>
+            <input type="text" name="customer_name" required style="margin-left: 10px;" placeholder="Your name..">
+        <p>Phone: </p>
+            <input type="text" name="phone_number" style="margin-left: 10px;" placeholder="Optional..">
+        <p>@Email Address</p> 
+            <input type="email" name="email_address" required style="margin-left: 10px;" placeholder="Your email address..">
         <p>
-        <label>Special Instructions on you want to recive stuff:<br>
-        <textarea name="comments" maxlength="500"></textarea>
-        </label>
-        </p>
-        
-        <p><button>Submit</button></p>
-    </fieldset>
-</form>
+        <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <aside>
+        <img class="mynd" src="/assets/images/signup.jpg">
+    </aside>
+<div>
           </div>
         </article>
-        <aside>    <div class="right">
-      <h1>Lorem Ipsum(RIGHT)</h1>
-      <ul>
-        <li>Nunc scelerisque suscipit diam, sed interdum ligula mattis sit </li>
-        <li>Integer nibh risus, dictum quis neque et, laoreet ultricies quam.</li>
-      </ul>
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <p>
-      Consectetur adipiscing elit. Etiam lacinia lobortis mi eu vulputate. 
-      Donec aliquet dignissim urna non tincidunt. Nulla facilisi. Nam vestibulum congue justo quis volutpat. 
-      Aliquam non orci sed odio suscipit venenatis sed a dolor. Nam eget congue dolor. Curabitur cursus varius feugiat.+
-      Fusce suscipit pellentesque tortor quis blandit. 
-      Donec accumsan, libero et tincidunt sodales, mi metus finibus mi, id feugiat ante nulla eget nibh. 
-      Ut venenatis id ante eget ullamcorper. Etiam molestie feugiat enim quis ornare.
-      </p>
-      <div class="ad">
-        <img  class="mynd_ad" id="auglysing" src="/assets/images/Mynd_Ad.jpg">
-        <p>
-          <h3>Sign up for subscriber guides</h3>
-          <h4>⇊Click here below⇊</h4>
-        </p>
-        <a href="signup.html" class="button">Sign up</a>
-      </div>
-    </div></aside>
       </div>
     </main>
-    <div class="contact">
-        <h3>Please Write Us a Messege If You Have A Question</h3>
-        <form action="#.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="iceland">Iceland</option>
-            <option value="denmark">Denmark</option>
-            <option value="finnland">Finnland</option>
-          </select>
-          
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-          <input type="submit" value="Submit">
-          
-        </form>
-      </div>
     <footer class="footer"> EverestTravel™</footer>
   </body>
 </html>

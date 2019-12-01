@@ -2,9 +2,6 @@
 .current {
     color: lightblue;
 }
-body{
-    margin: 0px;
-}
 .indent{
     margin-left: 50px;
     margin-right: 50px;
@@ -12,6 +9,7 @@ body{
 /* Navigation--------------------------------------*/
 .navigation{
     padding: 30px 40px;
+    margin: 20px;
     nav{
         text-align: right;
         background: white;
@@ -27,6 +25,7 @@ body{
         }
         img{
             float: left;
+            position: relative;
         }
     }
 }
@@ -45,18 +44,29 @@ h1{
     max-width: 100%;
     margin-left: 10px;
 }
+/*Dálkur fyrir Auglýsinginn ----------------------*/
 .right {
     padding: 0px 10px 10px 10px;
     background: gray;
     margin: 0px
-
 }
+.ad{
+    background: lightgray;
+    text-align: center;
+    overflow: hidden;
+}
+/*--------------------------------------------------*/
+
 .footer {  
     background: linear-gradient(white, #9c9c98);
     text-align: center;
     color: black;
     font-size: 25px;
     padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .grid-container {
     background-color: rgb(214, 214, 214);
@@ -65,11 +75,8 @@ h1{
     grid-gap: 10px;
     padding: 10px 0px 0px 0px;
 }
-.ad{
-    background: lightgray;
-    text-align: center;
-    overflow: hidden;
-}
+
+/* Sign Up takkinn --------------------------------*/
 .button {
     background-color: red;
     border: none;
@@ -82,7 +89,9 @@ h1{
     font-size: 30px;
     cursor: pointer;
     font-weight: bold;
-}    
+}   
+/*--------------------------------------------------*/
+
 .kynning{
     margin: 20px 100px 20px 40px;
     font-size: 20px;
@@ -108,7 +117,7 @@ h1{
   #auglysing {animation-timing-function: ease;}
 /*--------------------------------------------------*/
 
-/* Stóra myndin á forsíðu*/
+/* Stóra myndin í about*/
 .container{
     position: relative;
     margin: 0px;
@@ -123,7 +132,7 @@ h1{
     bottom: 400px;
     right: 200px;
 }
-.home{
+.about{
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
@@ -147,15 +156,44 @@ h1{
         resize: vertical
       }
     input[type=submit] {
-        background-color: #4CAF50;
-        color: white;
+        background-color: lightgray;
+        
         padding: 12px 20px;
         border: none;
         border-radius: 4px;
         cursor: pointer;
     }
     input[type=submit]:hover {
-        background-color: #45a049;
+        background-color: gray;
+    }
+}
+/*--------------------------------------------------*/
+                                                        /* Alveg það sama fyrir utan um nokkra hluti*/
+/* Sign up síðan -----------------------------------*/
+.signup{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    input[type=text], select, textarea, input[type=email] {
+        width: 25%;
+        padding: 12px;
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical
+      }
+    input[type=submit] {
+        background-color: lightgray;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type=submit]:hover {
+        background-color: gray;
     }
 }
 /*--------------------------------------------------*/

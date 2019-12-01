@@ -1,12 +1,10 @@
 @charset "UTF-8";
 .current { color: lightblue; }
 
-body { margin: 0px; }
-
 .indent { margin-left: 50px; margin-right: 50px; }
 
 /* Navigation--------------------------------------*/
-.navigation { padding: 30px 40px; }
+.navigation { padding: 30px 40px; margin: 20px; }
 
 .navigation nav { text-align: right; background: white; padding: 10px; font-size: 1.7em; }
 
@@ -14,7 +12,7 @@ body { margin: 0px; }
 
 .navigation nav:hover { color: darkblue; }
 
-.navigation nav img { float: left; }
+.navigation nav img { float: left; position: relative; }
 
 /*--------------------------------------------------*/
 img { max-width: 100%; height: auto; }
@@ -23,16 +21,20 @@ h1 { margin: 0px; }
 
 .main { font-size: 20px; max-width: 100%; margin-left: 10px; }
 
+/*Dálkur fyrir Auglýsinginn ----------------------*/
 .right { padding: 0px 10px 10px 10px; background: gray; margin: 0px; }
-
-.footer { background: linear-gradient(white, #9c9c98); text-align: center; color: black; font-size: 25px; padding: 20px; }
-
-.grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
 
 .ad { background: lightgray; text-align: center; overflow: hidden; }
 
+/*--------------------------------------------------*/
+.footer { background: linear-gradient(white, #9c9c98); text-align: center; color: black; font-size: 25px; padding: 20px; position: fixed; left: 0; bottom: 0; width: 100%; }
+
+.grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
+
+/* Sign Up takkinn --------------------------------*/
 .button { background-color: red; border: none; color: white; padding: 15px 120px; text-align: center; text-decoration: none; display: inline-block; margin: 0px 0px 10px 0px; font-size: 30px; cursor: pointer; font-weight: bold; }
 
+/*--------------------------------------------------*/
 .kynning { margin: 20px 100px 20px 40px; font-size: 20px; }
 
 /* Auglýsing----------------------------------------*/
@@ -49,14 +51,14 @@ h1 { margin: 0px; }
 #auglysing { animation-timing-function: ease; }
 
 /*--------------------------------------------------*/
-/* Stóra myndin á forsíðu*/
+/* Stóra myndin í about*/
 .container { position: relative; margin: 0px; }
 
 .top-left { position: absolute; top: 200px; left: 200px; }
 
 .bottom-right { position: absolute; bottom: 400px; right: 200px; }
 
-.home { font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
+.about { font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
 
 /*--------------------------------------------------*/
 /* Contact form*/
@@ -64,9 +66,20 @@ h1 { margin: 0px; }
 
 .contact input[type=text], .contact select, .contact textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
 
-.contact input[type=submit] { background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
+.contact input[type=submit] { background-color: lightgray; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
 
-.contact input[type=submit]:hover { background-color: #45a049; }
+.contact input[type=submit]:hover { background-color: gray; }
+
+/*--------------------------------------------------*/
+/* Alveg það sama fyrir utan um nokkra hluti*/
+/* Sign up síðan -----------------------------------*/
+.signup { border-radius: 5px; background-color: #f2f2f2; padding: 20px; margin: 20px; }
+
+.signup input[type=text], .signup select, .signup textarea, .signup input[type=email] { width: 25%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
+
+.signup input[type=submit] { background-color: lightgray; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
+
+.signup input[type=submit]:hover { background-color: gray; }
 
 /*--------------------------------------------------*/
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?f3sfoj"); src: url("../fonts/icomoon.eot?f3sfoj#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?f3sfoj") format("truetype"), url("../fonts/icomoon.woff?f3sfoj") format("woff"), url("../fonts/icomoon.svg?f3sfoj#icomoon") format("svg"); font-weight: normal; font-style: normal; font-display: block; }
