@@ -9,6 +9,30 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    margin: 0px;
+}
+.main {
+    font-size: 20px;
+    max-width: 100%;
+    margin-left: 10px;
+}
+/* Home -------------------------------------------- */
+.grid-container {
+    display: grid;
+    p{
+        font-family: 'Gupter', serif;
+    }
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 0px 0px 0px;
+}
+/*--------------------------------------------------*/
+
 /* Navigation--------------------------------------*/
 .navigation{
     padding: 30px 40px;
@@ -32,21 +56,8 @@ body{
         }
     }
 }
-
 /*--------------------------------------------------*/
 
-img{
-    max-width: 100%;
-    height: auto;
-}
-h1{
-    margin: 0px;
-}
-.main {
-    font-size: 20px;
-    max-width: 100%;
-    margin-left: 10px;
-}
 
 .footer {  
     text-align: center;
@@ -58,28 +69,6 @@ h1{
     height: 20px;
     margin-top: -20px;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 10px;
-    padding: 10px 0px 0px 0px;
-}
-
-/* Sign Up takkinn --------------------------------*/
-.button {
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 120px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0px 0px 10px 0px;
-    font-size: 30px;
-    cursor: pointer;
-    font-weight: bold;
-}   
-/*--------------------------------------------------*/
 
 .kynning{
     margin: 20px 100px 20px 40px;
@@ -104,6 +93,21 @@ h1{
     100%{opacity: 1;}
 }
   #auglysing {animation-timing-function: ease;}
+/*--------------------------------------------------*/
+/* Sign Up takkinn --------------------------------*/
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}   
 /*--------------------------------------------------*/
 /*Dálkur fyrir Auglýsinginn ----------------------*/
 .right {
@@ -155,6 +159,12 @@ h1{
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+}
+/*--------------------------------------------------*/
+
+/*Blog Síðan */
+.tab{
+    margin: 0px 300px 0px 300px;
 }
 /*--------------------------------------------------*/
 
