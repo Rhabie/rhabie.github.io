@@ -5,11 +5,11 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
+  {% include navigation.html %}
   <header>
-    <img src="{{'/assets/images/moutain.png' |prepend: site.baseurl}}">
+    <img  class="container" src="{{'/assets/images/Everest.jpg' |prepend: site.baseurl}}">
   </header>
   <body>
-    {% include navigation.html %}
     <main class="indent">
       <div class="grid-container">
         <article>

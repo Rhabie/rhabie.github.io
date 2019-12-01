@@ -32,7 +32,7 @@ img{
 .main {
     font-size: 20px;
     max-width: 100%;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 .right {
     padding: 0px 10px 10px 10px;
@@ -71,13 +71,13 @@ p{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 2px 2px;
+    margin: 0px 0px 10px 0px;
     font-size: 30px;
     cursor: pointer;
     font-weight: bold;
 }    
 .kynning{
-    margin: 20px 200px 0px 0px;
+    margin: 20px 100px 20px 40px;
 }
 .mynd_ad{
     margin: 8px 2px 6px 2px;
@@ -100,4 +100,9 @@ p{
     grid-template: auto auto;
     grid-gap: 20px;
     padding: 10px 0px 0px 0px;
+}
+.container{
+    display: block;
+    background-size: cover;
+    background-position: center center;
 }
