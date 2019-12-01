@@ -12,6 +12,8 @@ nav:hover { color: darkblue; }
 
 img { max-width: 100%; height: auto; }
 
+h1 { margin: 0px; }
+
 .main { font-size: 20px; max-width: 100%; margin-left: 10px; }
 
 .right { padding: 0px 10px 10px 10px; background: gray; margin: 0px; }
@@ -20,13 +22,11 @@ img { max-width: 100%; height: auto; }
 
 .grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
 
-p { font-size: 20px; margin: 4px; }
-
 .ad { background: lightgray; text-align: center; overflow: hidden; }
 
 .button { background-color: red; border: none; color: white; padding: 15px 120px; text-align: center; text-decoration: none; display: inline-block; margin: 0px 0px 10px 0px; font-size: 30px; cursor: pointer; font-weight: bold; }
 
-.kynning { margin: 20px 100px 20px 40px; }
+.kynning { margin: 20px 100px 20px 40px; font-size: 20px; }
 
 .mynd_ad { margin: 8px 2px 6px 2px; position: relative; animation: mymove 5s; }
 
@@ -42,7 +42,21 @@ p { font-size: 20px; margin: 4px; }
 
 .signup { display: grid; grid-template: auto auto; grid-gap: 20px; padding: 10px 0px 0px 0px; }
 
-.container { display: block; background-size: cover; background-position: center center; }
+.container { position: relative; margin: 0px; }
+
+.top-left { position: absolute; top: 200px; left: 200px; }
+
+.bottom-right { position: absolute; bottom: 400px; right: 200px; }
+
+.home { font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
+
+.contact { border-radius: 5px; background-color: #f2f2f2; margin: 10px 200px; padding: 20px; }
+
+.contact input[type=text], .contact select, .contact textarea { width: 100%; /* Full width */ padding: 12px; /* Some padding */ border: 1px solid #ccc; /* Gray border */ border-radius: 4px; /* Rounded borders */ box-sizing: border-box; /* Make sure that padding and width stays in place */ margin-top: 6px; /* Add a top margin */ margin-bottom: 16px; /* Bottom margin */ resize: vertical; }
+
+.contact input[type=submit] { background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
+
+.contact input[type=submit]:hover { background-color: #45a049; }
 
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?f3sfoj"); src: url("../fonts/icomoon.eot?f3sfoj#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?f3sfoj") format("truetype"), url("../fonts/icomoon.woff?f3sfoj") format("woff"), url("../fonts/icomoon.svg?f3sfoj#icomoon") format("svg"); font-weight: normal; font-style: normal; font-display: block; }
 

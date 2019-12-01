@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  {% include navigation.html %}
+  <div class="container home">
+    <img src="{{'/assets/images/Everest.png' |prepend: site.baseurl}}">
+    <p class="top-left">Our company was founded by passionate guides more than 20 years ago, <br>
+      and guiding continues to be the heart and soul of who we are. <br>
+      We require that all of our guides undergo extensive safety training before officially <br>
+      joining us a mountain and/or glacier guide. Our certified and knowledgeable guides live <br>
+      and breathe the outdoor adventure life. They use their extensive mountaineering and trekking <br>
+      training to safely lead travelers on adventures, and to pursue personal outdoor challenges.</p>
+    <p class="bottom-right">We are proud to have guides from different nationalities on the team. <br>
+      English is the primary language spoken on all of our tours but, collectively, our guides speak over a dozen. <br>
+      Browse through our guide profiles to learn more about each guide’s background and qualifications. <br>
+      You might even learn a random fact about them.</p>
+  </div>
+    <body>
+    <main class="indent">
+      <div class="grid-container">
+        <article>
+          <div class="main">
+            {{ content }}
+          </div>
+        </article>
+        <aside>{% include augl-test.html %}</aside>
+      </div>
+    </main>
+    <div class="contact">
+      <h3>Please Write Us a Messege If You Have A Question</h3>
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="iceland">Iceland</option>
+          <option value="denmark">Denmark</option>
+          <option value="finnland">Finnland</option>
+        </select>
+        
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+        <input type="submit" value="Submit">
+        
+      </form>
+    </div>
+    <footer class="footer"> EverestTravel™</footer>
+  </body>
+</html>
