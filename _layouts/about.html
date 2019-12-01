@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
   </head>
   <header>
     <div class="navigation">
       {% include navigation.html %}
     </div>
   </header>
-  <div class="container about">
+  <div class="container myndabout">
         <img src="{{'/assets/images/Everest.jpg' |prepend: site.baseurl}}">
         <p class="top-left">Our company was founded by passionate guides more than 20 years ago, <br>
           and guiding continues to be the heart and soul of who we are. <br>
@@ -22,18 +24,11 @@
           English is the primary language spoken on all of our tours but, collectively, our guides speak over a dozen. <br>
           Browse through our guide profiles to learn more about each guide’s background and qualifications. <br>
           You might even learn a random fact about them.</p>
-</div>
+  </div>
   <body>
-    <main class="indent">
-      <div class="grid-container">
-        <article>
-          <div class="main">
-            {{ content }}
-          </div>
-        </article>
-        <aside>{% include augl-test.html %}</aside>
-      </div>
-    </main>
+    <div class="indent">
+        {{ content }}
+    </div>
     <div class="contact">
         <h3>Please Write Us a Messege If You Have A Question</h3>
         <form action="#.php">
@@ -57,6 +52,6 @@
           
         </form>
       </div>
-    <footer class="footer"> EverestTravel™</footer>
+    <footer class="footer"> EverestTravel™(Placeholder)</footer>
   </body>
 </html>

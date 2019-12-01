@@ -23,17 +23,9 @@ h1 { margin: 0px; }
 
 .main { font-size: 20px; max-width: 100%; margin-left: 10px; }
 
-/*Dálkur fyrir Auglýsinginn ----------------------*/
-.right { padding: 10px; background: #c0c2c4; margin-right: 10px; height: 96%; }
+.footer { text-align: center; color: darkorange; font-size: 25px; padding: 150px 0px 30px 0px; clear: both; position: relative; height: 20px; margin-top: -20px; }
 
-.right p { font-size: 20px; }
-
-.ad { background: lightgray; text-align: center; overflow: hidden; }
-
-/*--------------------------------------------------*/
-.footer { background: linear-gradient(white, #9c9c98); text-align: center; color: darkorange; font-size: 25px; padding: 20px; clear: both; position: relative; height: 20px; margin-top: -20px; }
-
-.grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
+.grid-container { display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
 
 /* Sign Up takkinn --------------------------------*/
 .button { background-color: red; border: none; color: white; padding: 15px 120px; text-align: center; text-decoration: none; display: inline-block; margin: 0px 0px 10px 0px; font-size: 30px; cursor: pointer; font-weight: bold; }
@@ -55,6 +47,22 @@ h1 { margin: 0px; }
 #auglysing { animation-timing-function: ease; }
 
 /*--------------------------------------------------*/
+/*Dálkur fyrir Auglýsinginn ----------------------*/
+.right { padding: 10px; background: #dcdee0; margin-right: 10px; height: 96%; }
+
+.right p { font-size: 20px; }
+
+.ad { background: lightgray; text-align: center; overflow: hidden; }
+
+/*--------------------------------------------------*/
+/* About */
+.about { margin-top: 30px; padding: 0px 400px 0px 400px; }
+
+.about p { font-size: 25px; font-family: 'Gupter', serif; }
+
+.about h1 { font-family: 'Abel', sans-serif; }
+
+/*--------------------------------------------------*/
 /* Stóra myndin í about*/
 .container { position: relative; margin: 0px; }
 
@@ -62,7 +70,7 @@ h1 { margin: 0px; }
 
 .bottom-right { position: absolute; bottom: 400px; right: 200px; }
 
-.about { font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
+.myndabout { font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
 
 /*--------------------------------------------------*/
 /* Contact form*/
