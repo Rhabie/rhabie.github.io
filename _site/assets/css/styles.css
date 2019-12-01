@@ -1,5 +1,7 @@
 @charset "UTF-8";
-.current { color: lightblue; }
+.current { color: darkorange; }
+
+body { margin: 0px; }
 
 .indent { margin-left: 50px; margin-right: 50px; }
 
@@ -8,7 +10,7 @@
 
 .navigation nav { text-align: right; background: white; padding: 10px; font-size: 1.7em; }
 
-.navigation nav a { color: black; text-decoration: none; padding: 1em; }
+.navigation nav a { color: orange; text-decoration: none; padding: 1em; }
 
 .navigation nav:hover { color: darkblue; }
 
@@ -22,12 +24,14 @@ h1 { margin: 0px; }
 .main { font-size: 20px; max-width: 100%; margin-left: 10px; }
 
 /*Dálkur fyrir Auglýsinginn ----------------------*/
-.right { padding: 0px 10px 10px 10px; background: gray; margin: 0px; }
+.right { padding: 10px; background: #c0c2c4; margin-right: 10px; height: 96%; }
+
+.right p { font-size: 20px; }
 
 .ad { background: lightgray; text-align: center; overflow: hidden; }
 
 /*--------------------------------------------------*/
-.footer { background: linear-gradient(white, #9c9c98); text-align: center; color: black; font-size: 25px; padding: 20px; position: fixed; left: 0; bottom: 0; width: 100%; }
+.footer { background: linear-gradient(white, #9c9c98); text-align: center; color: darkorange; font-size: 25px; padding: 20px; clear: both; position: relative; height: 20px; margin-top: -20px; }
 
 .grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
 
