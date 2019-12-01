@@ -3,27 +3,36 @@
     color: lightblue;
 }
 body{
-    background: linear-gradient(#8a7978, #e6e1e1);
     margin: 0px;
 }
 .indent{
     margin-left: 50px;
     margin-right: 50px;
 }
-nav{
-    text-align: center;
-    background: linear-gradient(gray, #73917b);
-    padding: 10px;
-    font-size: 1.7em;
-    a {
-        color: white;
-        text-decoration: none;
-        padding: 0 1em;
-    }
-    &:hover{
-        color: darkblue;
+/* Navigation--------------------------------------*/
+.navigation{
+    padding: 30px 40px;
+    nav{
+        text-align: right;
+        background: white;
+        padding: 10px;
+        font-size: 1.7em;
+        a {
+            color: black;
+            text-decoration: none;
+            padding: 1em;
+        }
+        &:hover{
+            color: darkblue;
+        }
+        img{
+            float: left;
+        }
     }
 }
+
+/*--------------------------------------------------*/
+
 img{
     max-width: 100%;
     height: auto;
@@ -43,9 +52,9 @@ h1{
 
 }
 .footer {  
-    background: linear-gradient(#73917b, gray);
+    background: linear-gradient(white, #9c9c98);
     text-align: center;
-    color: white;
+    color: black;
     font-size: 25px;
     padding: 20px;
 }
@@ -78,6 +87,10 @@ h1{
     margin: 20px 100px 20px 40px;
     font-size: 20px;
 }
+
+
+
+/* Auglýsing----------------------------------------*/
 .mynd_ad{
     margin: 8px 2px 6px 2px;
     position: relative;       
@@ -93,13 +106,9 @@ h1{
     100%{opacity: 1;}
 }
   #auglysing {animation-timing-function: ease;}
+/*--------------------------------------------------*/
 
-.signup{
-    display: grid;
-    grid-template: auto auto;
-    grid-gap: 20px;
-    padding: 10px 0px 0px 0px;
-}
+/* Stóra myndin á forsíðu*/
 .container{
     position: relative;
     margin: 0px;
@@ -119,31 +128,23 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
+/*--------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
+/* Contact form*/
 .contact{
     border-radius: 5px;
     background-color: #f2f2f2;
     margin: 10px 200px;
     padding: 20px;
     input[type=text], select, textarea {
-        width: 100%; /* Full width */
-        padding: 12px; /* Some padding */ 
-        border: 1px solid #ccc; /* Gray border */
-        border-radius: 4px; /* Rounded borders */
-        box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 6px; /* Add a top margin */
-        margin-bottom: 16px; /* Bottom margin */
-        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical
       }
     input[type=submit] {
         background-color: #4CAF50;
@@ -157,3 +158,4 @@ h1{
         background-color: #45a049;
     }
 }
+/*--------------------------------------------------*/

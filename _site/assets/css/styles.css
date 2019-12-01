@@ -1,15 +1,22 @@
+@charset "UTF-8";
 .current { color: lightblue; }
 
-body { background: linear-gradient(#8a7978, #e6e1e1); margin: 0px; }
+body { margin: 0px; }
 
 .indent { margin-left: 50px; margin-right: 50px; }
 
-nav { text-align: center; background: linear-gradient(gray, #73917b); padding: 10px; font-size: 1.7em; }
+/* Navigation--------------------------------------*/
+.navigation { padding: 30px 40px; }
 
-nav a { color: white; text-decoration: none; padding: 0 1em; }
+.navigation nav { text-align: right; background: white; padding: 10px; font-size: 1.7em; }
 
-nav:hover { color: darkblue; }
+.navigation nav a { color: black; text-decoration: none; padding: 1em; }
 
+.navigation nav:hover { color: darkblue; }
+
+.navigation nav img { float: left; }
+
+/*--------------------------------------------------*/
 img { max-width: 100%; height: auto; }
 
 h1 { margin: 0px; }
@@ -18,7 +25,7 @@ h1 { margin: 0px; }
 
 .right { padding: 0px 10px 10px 10px; background: gray; margin: 0px; }
 
-.footer { background: linear-gradient(#73917b, gray); text-align: center; color: white; font-size: 25px; padding: 20px; }
+.footer { background: linear-gradient(white, #9c9c98); text-align: center; color: black; font-size: 25px; padding: 20px; }
 
 .grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
 
@@ -28,6 +35,7 @@ h1 { margin: 0px; }
 
 .kynning { margin: 20px 100px 20px 40px; font-size: 20px; }
 
+/* Auglýsing----------------------------------------*/
 .mynd_ad { margin: 8px 2px 6px 2px; position: relative; animation: mymove 5s; }
 
 @keyframes mymove { from { left: 100px; }
@@ -40,8 +48,8 @@ h1 { margin: 0px; }
 
 #auglysing { animation-timing-function: ease; }
 
-.signup { display: grid; grid-template: auto auto; grid-gap: 20px; padding: 10px 0px 0px 0px; }
-
+/*--------------------------------------------------*/
+/* Stóra myndin á forsíðu*/
 .container { position: relative; margin: 0px; }
 
 .top-left { position: absolute; top: 200px; left: 200px; }
@@ -50,14 +58,17 @@ h1 { margin: 0px; }
 
 .home { font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
 
+/*--------------------------------------------------*/
+/* Contact form*/
 .contact { border-radius: 5px; background-color: #f2f2f2; margin: 10px 200px; padding: 20px; }
 
-.contact input[type=text], .contact select, .contact textarea { width: 100%; /* Full width */ padding: 12px; /* Some padding */ border: 1px solid #ccc; /* Gray border */ border-radius: 4px; /* Rounded borders */ box-sizing: border-box; /* Make sure that padding and width stays in place */ margin-top: 6px; /* Add a top margin */ margin-bottom: 16px; /* Bottom margin */ resize: vertical; }
+.contact input[type=text], .contact select, .contact textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
 
 .contact input[type=submit] { background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
 
 .contact input[type=submit]:hover { background-color: #45a049; }
 
+/*--------------------------------------------------*/
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?f3sfoj"); src: url("../fonts/icomoon.eot?f3sfoj#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?f3sfoj") format("truetype"), url("../fonts/icomoon.woff?f3sfoj") format("woff"), url("../fonts/icomoon.svg?f3sfoj#icomoon") format("svg"); font-weight: normal; font-style: normal; font-display: block; }
 
 [class^="icon-"], [class*=" icon-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'icomoon' !important; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }

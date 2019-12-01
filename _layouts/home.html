@@ -5,7 +5,11 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
-  {% include navigation.html %}
+  <header>
+    <div class="navigation">
+      {% include navigation.html %}
+    </div>
+  </header>
   <div class="container home">
     <img src="{{'/assets/images/Everest.png' |prepend: site.baseurl}}">
     <p class="top-left">Our company was founded by passionate guides more than 20 years ago, <br>
