@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+  </head>
+  <header class="navigation">
+    <div>
+      {% include navigation.html %}
+    </div>
+  </header>
+    <body>
+    <main class="indent">
+      <div class="grid-container">
+        <article>
+          <div class="main">
+            {{ content }}
+          </div>
+        </article>
+        <aside>{% include augl-test.html %}</aside>
+      </div>
+    </main>
+    <div class="contact">
+      <h3>Please Write Us a Messege If You Have A Question</h3>
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname"  required name="firstname" placeholder="Your name..">
+        
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name(Optional)..">
+        
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="iceland">Iceland</option>
+          <option value="denmark">Denmark</option>
+          <option value="finnland">Finnland</option>
+        </select>
+        
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+        
+        <input type="submit" value="Submit">
+        
+      </form>
+    </div>
+    <footer class="footer"> EverestTravel™ PplaceHOlder</footer>
+  </body>
+</html>

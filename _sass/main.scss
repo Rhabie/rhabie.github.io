@@ -1,84 +1,83 @@
 
 .current {
-    color: lightblue;
+    color: darkorange;
 }
 body{
-    background: linear-gradient(#8a7978, #e6e1e1);
     margin: 0px;
 }
 .indent{
     margin-left: 50px;
     margin-right: 50px;
 }
-nav{
-    text-align: center;
-    background: linear-gradient(gray, #73917b);
-    padding: 10px;
-    font-size: 1.7em;
-    a {
-        color: white;
-        text-decoration: none;
-        padding: 0 1em;
-    }
-    &:hover{
-        color: darkblue;
-    }
-}
 img{
     max-width: 100%;
     height: auto;
 }
-
+h1{
+    margin: 0px;
+}
 .main {
     font-size: 20px;
     max-width: 100%;
     margin-left: 10px;
 }
-.right {
-    padding: 0px 10px 10px 10px;
-    background: gray;
-    margin: 0px
-
-}
-.footer {  
-    background: linear-gradient(#73917b, gray);
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    padding: 20px;
-}
+/* Home -------------------------------------------- */
 .grid-container {
-    background-color: rgb(214, 214, 214);
     display: grid;
+    p{
+        font-family: 'Gupter', serif;
+    }
     grid-template-columns: 2fr 1fr;
     grid-gap: 10px;
     padding: 10px 0px 0px 0px;
 }
-p{
-    font-size: 20px;
-    margin: 4px;
+/*--------------------------------------------------*/
+
+/* Navigation--------------------------------------*/
+.navigation{
+    padding: 30px 40px;
+    margin: 20px;
+    nav{
+        text-align: right;
+        background: white;
+        padding: 10px;
+        font-size: 1.7em;
+        a {
+            color: orange;
+            text-decoration: none;
+            padding: 1em;
+        }
+        &:hover{
+            color: darkblue;
+        }
+        img{
+            float: left;
+            position: relative;
+        }
+    }
 }
-.ad{
-    background: lightgray;
+/*--------------------------------------------------*/
+
+
+.footer {  
     text-align: center;
-    overflow: hidden;
+    color: darkorange;
+    font-size: 25px;
+    padding: 150px 0px 30px 0px;
+    clear: both;
+    position: relative;
+    height: 20px;
+    margin-top: -20px;
 }
-.button {
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 120px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0px 0px 10px 0px;
-    font-size: 30px;
-    cursor: pointer;
-    font-weight: bold;
-}    
+
 .kynning{
     margin: 20px 100px 20px 40px;
+    font-size: 20px;
 }
+
+
+
+/* Auglýsing----------------------------------------*/
 .mynd_ad{
     margin: 8px 2px 6px 2px;
     position: relative;       
@@ -94,15 +93,136 @@ p{
     100%{opacity: 1;}
 }
   #auglysing {animation-timing-function: ease;}
+/*--------------------------------------------------*/
+/* Sign Up takkinn --------------------------------*/
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}   
+/*--------------------------------------------------*/
+/*Dálkur fyrir Auglýsinginn ----------------------*/
+.right {
+    padding: 10px;
+    background: #dcdee0;
+    margin-right:10px;
+    p{
+        font-size: 20px;
+    }
+    height: 96%;
+}
+.ad{
+    background: lightgray;
+    text-align: center;
+    overflow: hidden;
+}
+/*--------------------------------------------------*/
 
-.signup{
-    display: grid;
-    grid-template: auto auto;
-    grid-gap: 20px;
-    padding: 10px 0px 0px 0px;
+/* About */
+.about{
+    p{
+        font-size: 25px;
+        font-family: 'Gupter', serif;
+    }
+    h1{
+        font-family: 'Abel', sans-serif;
+    }
+    margin-top: 30px;
+    padding: 0px 400px 0px 400px;
 }
+/*--------------------------------------------------*/
+
+/* Stóra myndin í about*/
 .container{
-    display: block;
-    background-size: cover;
-    background-position: center center;
+    position: relative;
+    margin: 0px;
 }
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+  }
+.bottom-right {
+    position: absolute;
+    bottom: 400px;
+    right: 200px;
+}
+.myndabout{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+/*--------------------------------------------------*/
+
+/*Blog Síðan */
+.tab{
+    margin: 0px 300px 0px 300px;
+}
+/*--------------------------------------------------*/
+
+/* Contact form*/
+.contact{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 10px 200px;
+    padding: 20px;
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical
+      }
+    input[type=submit] {
+        background-color: lightgray;
+        
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type=submit]:hover {
+        background-color: gray;
+    }
+}
+/*--------------------------------------------------*/
+                                                        /* Alveg það sama fyrir utan um nokkra hluti*/
+/* Sign up síðan -----------------------------------*/
+.signup{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    input[type=text], select, textarea, input[type=email] {
+        width: 25%;
+        padding: 12px;
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical
+      }
+    input[type=submit] {
+        background-color: lightgray;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type=submit]:hover {
+        background-color: gray;
+    }
+}
+/*--------------------------------------------------*/

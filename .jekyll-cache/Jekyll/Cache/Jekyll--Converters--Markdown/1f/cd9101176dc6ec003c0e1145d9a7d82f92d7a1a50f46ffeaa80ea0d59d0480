@@ -1,0 +1,35 @@
+I"ü	<div class="container home">
+    <img src="/assets/images/Everest.jpg" />
+    <p class="top-left">Our company was founded by passionate guides more than 20 years ago, <br />
+      and guiding continues to be the heart and soul of who we are. <br />
+      We require that all of our guides undergo extensive safety training before officially <br />
+      joining us a mountain and/or glacier guide. Our certified and knowledgeable guides live <br />
+      and breathe the outdoor adventure life. They use their extensive mountaineering and trekking <br />
+      training to safely lead travelers on adventures, and to pursue personal outdoor challenges.</p>
+    <p class="bottom-right">We are proud to have guides from different nationalities on the team. <br />
+      English is the primary language spoken on all of our tours but, collectively, our guides speak over a dozen. <br />
+      Browse through our guide profiles to learn more about each guideâ€™s background and qualifications. <br />
+      You might even learn a random fact about them.</p>
+</div>
+<h1 id="about-page">About page</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis at ligula vel gravida. Nulla quis neque a felis finibus euismod sed at dolor. In in lorem id sapien euismod hendrerit. Curabitur sem enim, semper nec arcu at, vehicula tincidunt tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse fringilla, lorem at vehicula vehicula, ligula est luctus orci,</p>
+
+<ul>
+  <li>ac volutpat ligula nisl sit amet sapien.</li>
+  <li>Donec tempus consectetur diam, a feugiat</li>
+  <li>Nulla quis neque a felis finibus</li>
+</ul>
+
+<h2 id="ligula-scelerisque-sed">Ligula scelerisque sed.</h2>
+<p>In auctor, tortor sollicitudin accumsan porta, nibh felis ullamcorper nibh, id varius nulla augue eget ex. Nulla aliquam, leo porta laoreet pellentesque, ligula neque varius diam, vel tincidunt nibh sapien et ante. Quisque pharetra dignissim elit, eu iaculis nisl sollicitudin ut.</p>
+
+<ol>
+  <li>Vestibulum eu purus a elit molestie finibus.</li>
+  <li>Ut at porta velit, sit amet consequat risus.</li>
+  <li>Sed in pellentesque nibh. In a ligula nec lacus maximus laoreet. Etiam congue scelerisque est nec mattis.</li>
+</ol>
+
+<p>Consectetur adipiscing elit. Cras convallis at ligula vel gravida. Nulla quis neque a felis finibus euismod sed at dolor. In in lorem id sapien euismod hendrerit. Curabitur sem enim, semper nec arcu at, vehicula tincidunt tellus. Class aptent taciti sociosqu ad lit</p>
+
+:ET

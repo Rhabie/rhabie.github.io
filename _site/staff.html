@@ -5,7 +5,9 @@
     <title>Staff</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
-  <nav>
+  <header>
+    <div class="navigation">
+      <nav>
     
       <a href="/" ><span class="icon-home"></span> Home</a>
     
@@ -15,16 +17,12 @@
     
       <a href="/staff.html" class="current"><span class="icon-users"></span> Staff</a>
     
-  </nav>
-  <header>
-    <img  class="container" src="/assets/images/Everest.jpg">
+</nav>
+    </div>
   </header>
   <body>
-    <main class="indent">
-      <div class="grid-container">
-        <article>
-          <div class="main">
-            <h1>Staff</h1>
+    <div class="tab">
+      <h1>Staff</h1>
 
 <ul>
   
@@ -44,34 +42,30 @@
   
 </ul>
 
-          </div>
-        </article>
-        <aside>    <div class="right">
-      <h1>Lorem Ipsum(RIGHT)</h1>
-      <ul>
-        <li>Nunc scelerisque suscipit diam, sed interdum ligula mattis sit </li>
-        <li>Integer nibh risus, dictum quis neque et, laoreet ultricies quam.</li>
-      </ul>
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <p>
-      Consectetur adipiscing elit. Etiam lacinia lobortis mi eu vulputate. 
-      Donec aliquet dignissim urna non tincidunt. Nulla facilisi. Nam vestibulum congue justo quis volutpat. 
-      Aliquam non orci sed odio suscipit venenatis sed a dolor. Nam eget congue dolor. Curabitur cursus varius feugiat.+
-      Fusce suscipit pellentesque tortor quis blandit. 
-      Donec accumsan, libero et tincidunt sodales, mi metus finibus mi, id feugiat ante nulla eget nibh. 
-      Ut venenatis id ante eget ullamcorper. Etiam molestie feugiat enim quis ornare.
-      </p>
-      <div class="ad">
-        <img  class="mynd_ad" id="auglysing" src="/assets/images/Mynd_Ad.jpg">
-        <p>
-          <h3>Sign up for subscriber guides</h3>
-          <h4>⇊Click here below⇊</h4>
-        </p>
-        <a href="signup.html" class="button">Sign up</a>
+    </div>
+    <div class="contact">
+      <h3>Please Write Us a Messege If You Have A Question</h3>
+        <form action="#.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="iceland">Iceland</option>
+            <option value="denmark">Denmark</option>
+            <option value="finnland">Finnland</option>
+          </select>
+            
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+          <input type="submit" value="Submit">
+            
+        </form>
       </div>
-    </div></aside>
-      </div>
-    </main>
-    <footer class="footer"> EverestTravel™</footer>
+  <footer class="footer"> EverestTravel™ Placeholder</footer>
   </body>
 </html>

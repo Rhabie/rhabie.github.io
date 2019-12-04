@@ -1,33 +1,39 @@
-.current { color: lightblue; }
+@charset "UTF-8";
+.current { color: darkorange; }
 
-body { background: linear-gradient(#8a7978, #e6e1e1); margin: 0px; }
+body { margin: 0px; }
 
 .indent { margin-left: 50px; margin-right: 50px; }
 
-nav { text-align: center; background: linear-gradient(gray, #73917b); padding: 10px; font-size: 1.7em; }
-
-nav a { color: white; text-decoration: none; padding: 0 1em; }
-
-nav:hover { color: darkblue; }
-
 img { max-width: 100%; height: auto; }
+
+h1 { margin: 0px; }
 
 .main { font-size: 20px; max-width: 100%; margin-left: 10px; }
 
-.right { padding: 0px 10px 10px 10px; background: gray; margin: 0px; }
+/* Home -------------------------------------------- */
+.grid-container { display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
 
-.footer { background: linear-gradient(#73917b, gray); text-align: center; color: white; font-size: 25px; padding: 20px; }
+.grid-container p { font-family: 'Gupter', serif; }
 
-.grid-container { background-color: #d6d6d6; display: grid; grid-template-columns: 2fr 1fr; grid-gap: 10px; padding: 10px 0px 0px 0px; }
+/*--------------------------------------------------*/
+/* Navigation--------------------------------------*/
+.navigation { padding: 30px 40px; margin: 20px; }
 
-p { font-size: 20px; margin: 4px; }
+.navigation nav { text-align: right; background: white; padding: 10px; font-size: 1.7em; }
 
-.ad { background: lightgray; text-align: center; overflow: hidden; }
+.navigation nav a { color: orange; text-decoration: none; padding: 1em; }
 
-.button { background-color: red; border: none; color: white; padding: 15px 120px; text-align: center; text-decoration: none; display: inline-block; margin: 0px 0px 10px 0px; font-size: 30px; cursor: pointer; font-weight: bold; }
+.navigation nav:hover { color: darkblue; }
 
-.kynning { margin: 20px 100px 20px 40px; }
+.navigation nav img { float: left; position: relative; }
 
+/*--------------------------------------------------*/
+.footer { text-align: center; color: darkorange; font-size: 25px; padding: 150px 0px 30px 0px; clear: both; position: relative; height: 20px; margin-top: -20px; }
+
+.kynning { margin: 20px 100px 20px 40px; font-size: 20px; }
+
+/* Auglýsing----------------------------------------*/
 .mynd_ad { margin: 8px 2px 6px 2px; position: relative; animation: mymove 5s; }
 
 @keyframes mymove { from { left: 100px; }
@@ -40,10 +46,62 @@ p { font-size: 20px; margin: 4px; }
 
 #auglysing { animation-timing-function: ease; }
 
-.signup { display: grid; grid-template: auto auto; grid-gap: 20px; padding: 10px 0px 0px 0px; }
+/*--------------------------------------------------*/
+/* Sign Up takkinn --------------------------------*/
+.button { background-color: red; border: none; color: white; padding: 15px 120px; text-align: center; text-decoration: none; display: inline-block; margin: 0px 0px 10px 0px; font-size: 30px; cursor: pointer; font-weight: bold; }
 
-.container { display: block; background-size: cover; background-position: center center; }
+/*--------------------------------------------------*/
+/*Dálkur fyrir Auglýsinginn ----------------------*/
+.right { padding: 10px; background: #dcdee0; margin-right: 10px; height: 96%; }
 
+.right p { font-size: 20px; }
+
+.ad { background: lightgray; text-align: center; overflow: hidden; }
+
+/*--------------------------------------------------*/
+/* About */
+.about { margin-top: 30px; padding: 0px 400px 0px 400px; }
+
+.about p { font-size: 25px; font-family: 'Gupter', serif; }
+
+.about h1 { font-family: 'Abel', sans-serif; }
+
+/*--------------------------------------------------*/
+/* Stóra myndin í about*/
+.container { position: relative; margin: 0px; }
+
+.top-left { position: absolute; top: 200px; left: 200px; }
+
+.bottom-right { position: absolute; bottom: 400px; right: 200px; }
+
+.myndabout { font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
+
+/*--------------------------------------------------*/
+/*Blog Síðan */
+.tab { margin: 0px 300px 0px 300px; }
+
+/*--------------------------------------------------*/
+/* Contact form*/
+.contact { border-radius: 5px; background-color: #f2f2f2; margin: 10px 200px; padding: 20px; }
+
+.contact input[type=text], .contact select, .contact textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
+
+.contact input[type=submit] { background-color: lightgray; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
+
+.contact input[type=submit]:hover { background-color: gray; }
+
+/*--------------------------------------------------*/
+/* Alveg það sama fyrir utan um nokkra hluti*/
+/* Sign up síðan -----------------------------------*/
+.signup { border-radius: 5px; background-color: #f2f2f2; padding: 20px; margin: 20px; }
+
+.signup input[type=text], .signup select, .signup textarea, .signup input[type=email] { width: 25%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
+
+.signup input[type=submit] { background-color: lightgray; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
+
+.signup input[type=submit]:hover { background-color: gray; }
+
+/*--------------------------------------------------*/
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?f3sfoj"); src: url("../fonts/icomoon.eot?f3sfoj#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?f3sfoj") format("truetype"), url("../fonts/icomoon.woff?f3sfoj") format("woff"), url("../fonts/icomoon.svg?f3sfoj#icomoon") format("svg"); font-weight: normal; font-style: normal; font-display: block; }
 
 [class^="icon-"], [class*=" icon-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'icomoon' !important; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }

@@ -2,28 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>About</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
   </head>
   <header>
     <div class="navigation">
-      <nav>
-    
-      <a href="/" ><span class="icon-home"></span> Home</a>
-    
-      <a href="/about.html" class="current"><span class="icon-book"></span> About</a>
-    
-      <a href="/blog.html" ><span class="icon-newspaper"></span> Blog</a>
-    
-      <a href="/staff.html" ><span class="icon-users"></span> Staff</a>
-    
-</nav>
+      {% include navigation.html %}
     </div>
   </header>
   <div class="container myndabout">
-        <img src="/assets/images/Everest.jpg">
+        <img src="{{'/assets/images/Everest.jpg' |prepend: site.baseurl}}">
         <p class="top-left">Our company was founded by passionate guides more than 20 years ago, <br>
           and guiding continues to be the heart and soul of who we are. <br>
           We require that all of our guides undergo extensive safety training before officially <br>
@@ -37,24 +27,7 @@
   </div>
   <body>
     <div class="indent">
-        <div class="about">
-    <h1>Adventure travel expert</h1>
-    <p>
-        After creating the EverestTravel in Iceland in 1994, we saw how important it is to offer innovative and safe experiences 
-        to travellers in Iceland.
-        Our diverse selection of adventures lets you immerse in the world’s pure wilderness.<br>
-        <br>
-        Along with enjoying activities out in nature, we are strong advocates of conserving the precious Icelandic
-        nature that we work in all year long.
-        We design tours that take travellers on safe, fun and environmentally conscious outdoor adventures that showcase 
-        the awe-inspiring beauty of Iceland. Whether you want to go hiking, backpacking, trekking, ice climbing, on a glacier walk,
-        mountain climbing, skiing, on an expedition or for a mountaineering course in almost every country, we’ve got you covered!<br>
-        <br>
-        <br>Our focus on protecting world’s nature, while providing quality services and small group experiences, 
-        are what make us world's best adventure travel experts.<br>
-    </p>
-    <img src="/assets/images/aboutmynd.jpg">
-</div>
+        {{ content }}
     </div>
     <div class="contact">
         <h3>Please Write Us a Messege If You Have A Question</h3>
