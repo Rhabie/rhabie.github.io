@@ -1,4 +1,10 @@
 
+@media only screen and (max-width: 600px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 .current {
     color: darkorange;
 }
@@ -157,7 +163,6 @@ h1{
 }
 .myndabout{
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 /*--------------------------------------------------*/

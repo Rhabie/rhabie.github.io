@@ -2,13 +2,26 @@
 layout: default
 title: Blog
 ---
+<style>
+  ul{
+    font-family: 'Gupter', serif;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  fieldset{
+    margin: 20px 0px 60px 0px;
+  }
+</style>
 <h1>Our Guides</h1>
-
-<ul>
+<!-- Mér langaði að bæta við search bar en tengist PHP sem ég kann ekki-->
+<a href="{{ post.url }}">
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <a href="{{ post.url }}">
+  <fieldset>
+      <h2>{{ post.title }}</h2>
       <p>{{ post.excerpt }}</p>
-    </li>
+  </fieldset>
   {% endfor %}
-</ul>
+</a>

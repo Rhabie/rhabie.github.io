@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@media only screen and (max-width: 600px) { .grid-container { display: grid; grid-template-columns: 1fr; } }
+
 .current { color: darkorange; }
 
 body { margin: 0px; }
@@ -74,7 +76,7 @@ h1 { margin: 0px; }
 
 .bottom-right { position: absolute; bottom: 400px; right: 200px; }
 
-.myndabout { font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; }
+.myndabout { font-size: 20px; font-weight: bold; }
 
 /*--------------------------------------------------*/
 /*Blog Síðan */
