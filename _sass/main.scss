@@ -1,10 +1,4 @@
 
-@media only screen and (max-width: 600px) {
-    .grid-container{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
 .current {
     color: darkorange;
 }
@@ -231,9 +225,84 @@ h1{
     }
 }
 /*--------------------------------------------------*/
+
+@media screen and (min-width: 375px) {    
+	.navigation{        
+		padding: 20px 0px;        
+		margin: 0px;        
+		nav{            
+			font-size: 20px;            
+			a{                
+				padding: 5px 0px;            
+			}
+   
+		     }    
+		}    
+	.indent{        
+		margin: 0px;    
+	}    
+	.kynning{        
+		margin: 5px;    
+	}
+	.main{        
+		margin: 2px;  
+	}    
+	.contact{       
+		 margin: 10px 5px;    
+	}    
+	.about{      
+		padding: 5px;    
+	}    
+	.top-left{        
+		font-weight: 100;        
+		left: 70px;        
+		top: 70px;        
+		font-size: 15px;    
+	}    
+	.bottom-right{        
+		font-weight: 100;        
+		right: 30px;        
+		bottom: 250px;        
+		font-size: 15px;    
+	}    
+	.tab{        
+		margin: 10px;    
+	}
+}
+@media screen and (min-width: 768px) {    
+	.about{        
+		padding: 0 20px 0 20px;    
+	}    
+	.top-left{        
+		font-weight: 100;        
+		left: 70px;        
+		top: 200px;        
+		font-size: 15px;    
+	}    
+	.bottom-right{        
+		font-weight: 100;        
+		right: 30px;        
+		bottom: 250px;        
+		font-size: 15px;    
+	}    
+	.contact{        
+		margin: 10px 40px;    
+	}    
+	.kynning{        
+		margin: 20px;    
+	}    
+	.indent{        
+		margin: 0 20px;    
+	}    
+	.tab{        
+		margin: 0 100px;    
+	}
+}
+
+
 @media screen and (min-width: 812px) {    
     .grid-container {       
-         display: grid;        
+        display: grid;        
         p{            
             font-family: 'Gupter', serif;        
         }        
@@ -245,7 +314,8 @@ h1{
 @media screen and (min-width: 1024px) {
     .grid-container {        
         display: grid;        
-        p{font-family: 'Gupter', serif;        
+        p{
+            font-family: 'Gupter', serif;        
         }        
         grid-template-columns: 2fr 1fr;        
         grid-gap: 10px;       
