@@ -225,6 +225,33 @@ h1{
     }
 }
 /*--------------------------------------------------*/
+@media screen and (min-width: 320px) {
+    .navigation{
+        padding: 20px 0px;
+        margin: 0px;
+        nav{
+            font-size: 20px;
+            a{
+                padding: 5px 0px;
+            }
+        }
+    }
+    .indent{
+        margin: 0px;
+    }
+    .kynning{
+        margin: 5px;
+    }
+    .main{
+        margin: 2px;
+    }
+    .contact{
+        margin: 10px 5px;
+    }
+    .about{
+        padding: 5px;
+    }
+}
 @media screen and (min-width: 375px) {
     .navigation{
         padding: 20px 0px;
